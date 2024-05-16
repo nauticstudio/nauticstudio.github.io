@@ -16,7 +16,7 @@ At [Your Studio Name], we offer professional mixing and mastering services. We s
 
 ## Contact
 
-If you have any questions or would like to learn more about our mixing and mastering services, feel free to contact us at [nauticboyofficial@gmail.com](nauticboyofficial@gmail.com).
+If you have any questions or would like to learn more about our mixing and mastering services, feel free to contact us at [nauticboyofficial@gmail.com](mailtonauticboyofficial@gmail.com).
 
 ---
 
