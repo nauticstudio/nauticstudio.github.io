@@ -160,6 +160,10 @@ img {
 } */
 
 /* CARD */
+audio {
+    width: 100%;
+}
+
 .card-custom .card-custom-image {
     overflow: hidden;
 }
