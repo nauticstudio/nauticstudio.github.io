@@ -1,4 +1,4 @@
-## Nautic Studio
+## Nautic Studio https://nauticstudio.github.io
 # Mix & Mastering Studio
 
 Welcome to our mix and mastering website, where we transform your recordings into high-quality sound productions. Our experience and dedication ensure that your music stands out on any platform.
