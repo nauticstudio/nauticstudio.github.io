@@ -5,7 +5,7 @@ Welcome to our mix and mastering website, where we transform your recordings int
 
 ## Description
 
-At [Your Studio Name], we offer professional mixing and mastering services. We specialize in transforming your tracks with advanced techniques and state-of-the-art equipment, ensuring a flawless and superior sound quality. Each production is 100% customized to your specific needs.
+At Nautic Studio Lab we offer professional mixing and mastering services. We specialize in transforming your tracks with advanced techniques and state-of-the-art equipment, ensuring a flawless and superior sound quality. Each production is 100% customized to your specific needs.
 
 ## Features
 
