@@ -235,7 +235,7 @@ img {
     }
 }
 
-/* Estilos para la sección de servicios */
+/* Estilos para la sección de Work */
 .work-section{
     background-image: url('/assets/images/work-bg.jpeg'); /* Ruta de tu imagen */
     background-size: cover; /* Cubre todo el espacio disponible */
@@ -263,6 +263,42 @@ img {
 .work-section .container {
     position: relative;
     z-index: 2;
+}
+
+.card-custom-content h4 {
+    font-size: 1.3rem !important; /* Ajustá el tamaño según tu preferencia */
+    line-height: 1.2; /* Opcional, para reducir el espacio vertical */
+}
+
+/* Estilos para el scrollbar */
+#card-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+#card-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+#card-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+#card-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+audio {
+    width: 100%;
+    margin-top: clamp(5px, 1.5vw, 10px); /* Margen responsivo */
+}
+
+/* Responsive settings */
+@media (max-width: 767.98px) {
+    .card-custom {
+        margin-bottom: clamp(10px, 3vw, 20px); /* Margen responsivo */
+    }
 }
 
 /* Estilos para la sección de servicios */
@@ -353,37 +389,6 @@ img {
 .contact-section .container {
     position: relative;
     z-index: 2;
-}
-
-/* Estilos para el scrollbar */
-#card-container::-webkit-scrollbar {
-    height: 8px;
-}
-
-#card-container::-webkit-scrollbar-track {
-    background: #f1f1f1;
-    border-radius: 10px;
-}
-
-#card-container::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 10px;
-}
-
-#card-container::-webkit-scrollbar-thumb:hover {
-    background: #555;
-}
-
-audio {
-    width: 100%;
-    margin-top: clamp(5px, 1.5vw, 10px); /* Margen responsivo */
-}
-
-/* Responsive settings */
-@media (max-width: 767.98px) {
-    .card-custom {
-        margin-bottom: clamp(10px, 3vw, 20px); /* Margen responsivo */
-    }
 }
 
 /* Social icons */
