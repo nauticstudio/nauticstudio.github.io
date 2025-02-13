@@ -20,9 +20,7 @@
     <!-- Title and CSS links -->
     <title>Nautic Studio</title>
     <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/line-awesome.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="icon" href="./assets/images/nb-icon.ico">
 
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -32,13 +30,18 @@
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container-fluid flex-lg-column">
+            <!-- Imagen (visible en móvil y desktop) -->
             <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
-                <span class="h3 fw-bold d-block d-lg-none">Nautic Boy</span>
-                <img src="./assets/images/person.jpg" class="d-none d-lg-block rounded-circle" alt="Nautic Boy">
+                <img src="./assets/images/person.jpg" class="rounded-circle d-none d-lg-block" alt="Nautic Boy">
+                <img src="./assets/images/person.jpg" class="rounded-circle d-lg-none mx-auto" alt="Nautic Boy" style="width: 50px; height: 50px;">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    
+            <!-- Botón toggler (solo visible en móvil) -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
+    
+            <!-- Menú colapsable -->
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
@@ -84,33 +87,46 @@
                     <div class="col-md-4 nautic-animate fade-up">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fa-solid fa-music"></i>
+                                <i class="fa-solid fa-music" aria-hidden="true"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Mix & Mastering</h5>
-                            <p>At <span class="text-brand">Nautic Studio</span>, we elevate your music to its full potential with professional mixing and mastering services, guaranteeing impeccable sound and superior quality on all platforms.</p>
+                            <p>
+                                At <span class="text-brand">Nautic Studio</span>, we take your music 
+                                to the next level with professional mixing and mastering services, 
+                                ensuring crystal-clear sound and top-quality results across all platforms.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 nautic-animate fade-up" data-animate-delay="300">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fa-solid fa-ghost"></i>
+                                <i class="fa-solid fa-ghost" aria-hidden="true"></i>
                             </div>
-                            <h5 class="mt-4 mb-2">Ghost Productions</h5>
-                            <p>The work will be carried out to the highest world-class standards, seeking to satisfy all your needs, thus being able to deliver a job that is faithful to your needs and without losing your style.</p>
+                            <h5 class="mt-4 mb-2">Ghost Production</h5>
+                            <p>
+                                We create top-tier productions tailored to your needs, 
+                                ensuring industry-standard quality while keeping your 
+                                unique style and artistic vision intact.
+                            </p>
                         </div>
                     </div>
                     <div class="col-md-4 nautic-animate fade-up" data-animate-delay="600">
                         <div class="service p-4 bg-base rounded-4 shadow-effect">
                             <div class="iconbox rounded-4">
-                                <i class="fa-solid fa-hand-holding-hand"></i>
+                                <i class="fa-solid fa-hand-holding-hand" aria-hidden="true"></i>
                             </div>
                             <h5 class="mt-4 mb-2">Productions</h5>
-                            <p>Each production is unique and customized, from the simplest to the most advanced stages of production and audio management, using all possible chains to ensure results that perfectly fit your needs.</p>
+                            <p>
+                                Every production is uniquely crafted, from the initial 
+                                concept to the final mastering stage, using advanced 
+                                techniques to ensure a perfect match for your needs.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
 
         <!-- WORK -->
         <section id="work" class="full-height px-lg-5 work-section">
