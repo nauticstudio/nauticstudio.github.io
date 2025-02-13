@@ -615,3 +615,24 @@ footer {
 .developer {
     padding: clamp(12px, 3vw, 16px) clamp(8px, 2vw, 12px); /* Padding responsivo */
 }
+
+/* Custom CSS for Animations */
+
+.nautic-animate {
+    opacity: 0;
+    transition: opacity 0.6s ease-out,
+    transform 0.6s ease-out;
+}
+
+.nautic-animate.fade-up {
+    transform: translateY(20px);
+}
+
+.nautic-animate.fade-down {
+    transform: translateY(-20px);
+}
+
+.nautic-animate.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
