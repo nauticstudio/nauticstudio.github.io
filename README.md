@@ -1,4 +1,4 @@
-## Nautic Studio https://nauticstudio.github.io
+## Nautic Studio https://nauticstudio.xyz
 Mix & Mastering Studio
 
 Welcome to Nautic Studio, your gateway to professional audio production. We specialize in transforming raw recordings into polished, high-quality sound productions that stand out on any platform. Whether you're an artist, producer, or label, we’re here to elevate your music to its fullest potential.
